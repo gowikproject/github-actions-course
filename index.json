@@ -1,0 +1,57 @@
+{
+    "key": "value",
+    "key with quotes": "value with quotes",
+    "323": 2242,
+    "special_chars": "special: characters",
+    "single quotes": "a value 'in' single quotes \\u263A \\n",
+    "double quotes": "\u263A \u263B \n", 
+
+
+    "array": [
+        "hello",
+        "world"
+    ],
+
+    "json array": [
+        "hello",
+        "world"
+    ],
+    "numbers": 100,
+    "boolean": true,
+    "null": null,
+    "also null": null, 
+    "object (map)": {
+        "key": "value",
+          "another": "value",
+          "nested object": {
+                    "nested key": "values"
+                }
+    },
+
+    "json style object": {
+        "key": "value",
+           "another": "value",
+           "nested object": {
+             "nested key": "values"
+             }
+           },
+
+    "sequence": [
+        "Item 1", 
+        "Item 2",
+        0.5,
+        {
+            "key": "value",
+            "another key": "value"
+        },
+        [
+            "nested array Item",
+            "nested array Item 2"
+        ]
+    ],
+
+    "literal block": "first line\nsecond line\n",
+    "folder block": "first line\nsecond line\n",
+    "literal block with new lines in end": "first line\nsecond line\n\n\n\n\n",
+    "literal block without new line in end": "first line\nsecond line"
+}

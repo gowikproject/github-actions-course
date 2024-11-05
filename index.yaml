@@ -1,0 +1,67 @@
+key: value
+"key with quotes": "value with quotes"
+323: 2242
+# commnet in yaml
+special_chars: "special: characters"
+# : { } [] , & * # ? | - < > = ! % @ \ - list of a special characters in yaml and it should be taken in quotes
+single quotes: 'a value ''in'' single quotes \u263A \n' 
+#uniquode characters won't work for single quotes
+double quotes: "\u263A \u263B \n"
+
+
+#data types
+#it is preferable to use two spacess for arrays and objects
+array:
+  - hello
+  - world
+
+json array: [hello, world]
+numbers: 100
+boolean: true
+null: null
+also null: ~
+
+object (map):
+  key: value
+  another: value
+  nested object:
+    nested key: values
+
+json style object: {
+ "key": "value",
+    "another": "value",
+    "nested object": {
+      "nested key": "values"
+      }
+    }
+
+sequence:
+  - Item1
+  - Item2
+  - 0,5
+  - key: value
+    another key: value
+  - - nested array Item1
+    - nested array Item 2
+
+literal block: |
+  first line
+  second line
+
+folder block: >
+  first line
+
+  second line
+
+literal block with new lines in end: |+
+   first line
+   second line
+
+
+
+
+literal block without new line in end: |-
+   first line
+   second line
+# similar for folder block
+
